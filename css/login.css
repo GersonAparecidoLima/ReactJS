@@ -1,0 +1,25 @@
+@import url("styles.css");
+
+#login-section {
+  padding: 20px 0;
+}
+/*
+  Utiliza 100% mas a largura maxima não pode passar de 360px 
+  width: 100%;
+  max-width: 360px;
+*/
+.dsc-login-form-container {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.dsc-login-form-buttons {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  #login-section {
+    padding: 40px 0;
+  }
+}
